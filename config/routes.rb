@@ -2,7 +2,7 @@ ControllerExercise::Application.routes.draw do
 
 
   get '/products' => 'products#index'
-
+  get '/products/new' => 'products#new'
   resources :users
 
   # The priority is based upon order of creation:
